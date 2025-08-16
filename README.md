@@ -1,13 +1,14 @@
 # LangChain Gemini Chatbot
 
-A simple, command-line chatbot powered by Google's Gemini model through the LangChain framework. This interactive script lets you have a conversation with an AI persona named "Ryan".
+A simple, web-based chatbot powered by Google's Gemini model through the LangChain framework. This interactive application lets you have a conversation with an AI persona named "Ryan" via a Gradio interface.
 
 ## Features
 
--   **Interactive Chat:** Engage in a back-and-forth conversation directly in your terminal.
+-   **Interactive Web Chat:** Engage in a back-and-forth conversation through a user-friendly web interface.
 -   **Persona-driven:** The AI responds as "Ryan," a character with a sense of humor and a tendency to share personal anecdotes, based on a system prompt.
 -   **Conversation History:** The chatbot remembers previous turns in the conversation to maintain context.
 -   **Powered by LangChain and Gemini:** Utilizes `langchain-google-genai` to connect to the Gemini API.
+-   **Easy to Use:** Built with Gradio for a clean, simple user experience.
 
 ## Requirements
 
@@ -40,4 +41,4 @@ Once the setup is complete, run the chatbot with the following command:
 python app.py
 ```
 
-You can then start chatting with Ryan. Type `exit` to end the conversation.
+This will launch a Gradio web server. You can interact with the chatbot by opening the local URL (usually `http://127.0.0.1:7860`) provided in your terminal in a web browser. The application will also generate a public link for sharing.
